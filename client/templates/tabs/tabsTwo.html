@@ -1,5 +1,13 @@
 <template name="tabsTwo">
+
+  {{#contentFor "headerTitle"}}
+    <h1>Tabs Two</h1>
+  {{/contentFor}}
+
   {{#ionView}}
+
+    {{> _tabsHeader title="Hello"}}
+
     {{#ionContent class="padding"}}
       <h1>Tab 2</h1>
     {{/ionContent}}
